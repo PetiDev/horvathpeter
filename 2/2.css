@@ -1,0 +1,89 @@
+.download {
+	
+	position: absolute;
+	 right: 20px;
+	 bottom: 10px;
+}
+.gomb {
+	background-color: #2d98da;
+    border-color: darkslategrey;
+	cursor: zoom-in;
+	
+}
+.gomb:hover {
+	background-color: teal;
+	}
+.gomb:active {
+	background: #c40404;
+}
+.keep {
+	position: absolute;
+	left: 23%;
+}
+.gombb {
+	background-color: #2d98da;
+    border-color: darkslategrey;
+	cursor: pointer;
+	
+}
+.gombb:hover {
+	background-color: teal;
+	}
+.gombb:active {
+	background: #c40404;
+}
+body {
+	background-color: #4b7bec;
+}
+
+a {
+	color: pink;
+	
+}
+b:hover {
+	color: lime;
+}
+
+a:active {
+  color: purple;
+}
+.btn {
+	position: absolute;
+	left: 0px;
+	bottom: 3px;
+  	border: none;
+ 	color: black;
+  	background-color: inherit;
+}
+
+.btn:hover {
+	color: lime;
+	background: #c40404;
+}
+.btn:active {
+	color: lime;
+	background:#ff0000
+}
+
+
+#easter {
+	color: #4b7bec;
+}
+.flex {
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items:center ;
+	justify-content: center;
+	
+}
+.vissza {
+	background-color: #2d98da;
+    border-color: darkslategrey;
+	cursor: pointer;
+	
+}
+.vissza:active {
+	background: #c40404;
+}
