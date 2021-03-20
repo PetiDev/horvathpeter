@@ -149,6 +149,7 @@ window.onkeydown = (e) => {
             break;
         case ' ':
             running = true;
+            
         case 'ArrowDown':
             direction = 'down';
             break;
@@ -161,14 +162,14 @@ window.onkeydown = (e) => {
     }
 }
 
-var seconds = 0;
-let timer = $('#timer');
-let score = $('#score');
+let seconds = 0;
+let timer = document.getElementById('timer');
+let score = document.getElementById('score');
 
 setInterval(function () {
-    if (!running) return;
-    timer.text('Idő: ' + seconds++);
-    score.text('Pontjaid: ' + points);
+    if(!running)return;
+    timer.innerHTML = 'Idő: ' + seconds++;
+    score.innerHTML = 'Pontjaid: ' + points;
 }, 1000);
 
 function setCookie(cname, cvalue) {
