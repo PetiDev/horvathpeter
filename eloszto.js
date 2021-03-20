@@ -3,7 +3,7 @@ function elso() {
 }
 
 function szamolo() {
-    window.location="szamologep/szamolo.html";
+    window.location="szamologep/index.html";
 }
 function ora() {
     window.location="time/time.html";
